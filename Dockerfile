@@ -1,6 +1,6 @@
 FROM debian:buster-slim
 
-ENV MINECRAFT_BE_VERSION=1.14.1.4
+ENV MINECRAFT_BE_VERSION=1.14.30.2
 
 RUN apt-get update; \
     apt-get install -y --no-install-recommends \
